@@ -1,0 +1,34 @@
+Copy and Paste the comments to the rigth place:
+
+// Denne klasse binder det hele sammen (spilleren og spillet).
+// Den styrer flowet: velkomst, input-loop og afslutning.
+
+// hvis brugeren skrev noget forkert (fx bogstaver)
+
+// Denne klasse repræsenterer en spiller i spillet.
+// Spilleren har et navn og kan afgive et gæt (input fra tastatur).
+
+ // Spilleren laver et gæt
+
+ // Opret en spiller
+
+ // Spillet kører i en løkke indtil spilleren gætter rigtigt
+
+ // Konstruktør til at oprette en spiller med navn og scanner
+
+ // læs input fra tastatur og konverter til heltal
+
+// Denne klasse indeholder selve spillets logik.
+// Den holder styr på det hemmelige tal, og hvor mange forsøg spilleren har brugt.
+
+ // Hent spillerens navn
+
+ // Spilleren har gættet rigtigt
+
+ // Når spillet er slut, lukker vi scanneren
+
+ // Konstruktør: spillet vælger et tilfældigt tal mellem 1 og maxNumber
+
+  // Tjekker spillerens gæt mod det hemmelige tal
+  // Returnerer true hvis gættet er korrekt, ellers false
+
