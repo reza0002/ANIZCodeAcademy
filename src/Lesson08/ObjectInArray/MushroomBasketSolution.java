@@ -7,7 +7,9 @@ public class MushroomBasketSolution {
         basket[0] = new Mushroom("Champignon", "Hvid");
         basket[1] = new Mushroom("Portobello", "Brun");
         basket[2] = new Mushroom("Østershat", "Grå");
-        basket[3] = new Mushroom("Shiitake", "Brun"); // added new mushroom
+        basket[3] = new Mushroom("Rød fluesvamp", "Rød");
+        basket[4] = new Mushroom("Shiitake", "Brun"); // added new mushroom
+
 
         // Step 2: Print all mushrooms
         System.out.println("All mushrooms in the basket:");

@@ -9,7 +9,7 @@ public class MushroomBasket {
         basket[1] = new Mushroom("Portobello", "Brun");
         basket[2] = new Mushroom("Østershat", "Grå");
         basket[3] = new Mushroom("Rød fluesvamp", "Rød");
-        basket[4] = new Mushroom("Shiitake", "Brun");
+
 
         // Udskriv alle svampe med toString()
         System.out.println("Svampe i kurven:");
@@ -20,16 +20,16 @@ public class MushroomBasket {
         System.out.println();
 
         // Demonstrer equals()
-        Mushroom checkMushroom = new Mushroom("Østershat", "Grå");
-        if (basket[2].equals(checkMushroom)) {
-            System.out.println("The third mushroom matches Østershat (Grå)! ");
+        Mushroom checkMushroom = new Mushroom("Portobello", "Brun");
+        if (basket[1].equals(checkMushroom)) {
+            System.out.println("The third mushroom matches Portobello (Brun)! ");
         } else {
             System.out.println("The third mushroom does not match.");
         }
 
         // Eksempel på ikke-match
         Mushroom wrongMushroom = new Mushroom("Champignon", "Brun");
-        if (basket[2].equals(wrongMushroom)) {
+        if (basket[1].equals(wrongMushroom)) {
             System.out.println("Match!");
         } else {
             System.out.println("The third mushroom does not match Champignon (Brun). ");
