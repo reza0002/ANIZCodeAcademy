@@ -1,0 +1,29 @@
+Udvidelsesopgaver til VandpoloArrayList
+
+1. Tilføj flere spillere
+
+Lav en metode, så brugeren selv kan indtaste navne på spillere, der bliver lagt i ArrayList’en.
+
+// BONUS: Make ONLY if you are ready with your other 1. exercises in Exception and Enum package.
+
+2. Find topscorer
+
+Skriv en metode, der gennemløber ArrayList’en og finder spilleren med flest mål.
+
+3. To hold
+
+Lav to ArrayList<Spiller> – ét for hvert hold.
+Hold styr på stillingen (fx “Blå: 3 – Rød: 2”).
+
+4. Fjern en spiller
+
+Lav en metode, der fjerner en spiller fra listen ud fra navnet.
+
+5. Søg efter spiller
+
+Lad brugeren indtaste et navn og udskriv spillerens mål (hvis spilleren findes).
+
+6. Udvid med målmand
+
+Giv spillerne en rolle (fx “Angriber” eller “Målmand”) som et ekstra felt i klassen.
+Udskriv spillere med både navn, rolle og antal mål.
