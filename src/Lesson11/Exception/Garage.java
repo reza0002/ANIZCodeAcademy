@@ -1,6 +1,6 @@
 package Lesson11.Exception;
 import java.util.ArrayList;
-
+//Garage
 class Garage {
     private ArrayList<Car> cars = new ArrayList<>();
 

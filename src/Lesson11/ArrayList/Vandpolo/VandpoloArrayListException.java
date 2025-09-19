@@ -28,6 +28,7 @@ public class VandpoloArrayListException {
             System.out.println("Exception besked: " + e.getMessage());
         }
 
+
         System.out.println("\nProgrammet fortsætter her efter try-catch.");
     }
 }

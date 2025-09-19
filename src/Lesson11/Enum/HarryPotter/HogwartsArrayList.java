@@ -1,7 +1,7 @@
 package Lesson11.Enum.HarryPotter;
 
 import java.util.ArrayList;
-
+//With ArrayList
 public class HogwartsArrayList {
     public static void main(String[] args) {
         // Opret ArrayList til elever

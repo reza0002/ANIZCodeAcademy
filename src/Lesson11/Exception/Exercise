@@ -1,5 +1,5 @@
 Try–Catch Practice
-
+----------
 1. Safe Car Removal
 Modify removeCar() so the program asks the user for an index. Use try–catch to handle both:
 IndexOutOfBoundsException (invalid index).

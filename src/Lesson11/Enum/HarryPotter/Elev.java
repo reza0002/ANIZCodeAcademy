@@ -1,5 +1,5 @@
 package Lesson11.Enum.HarryPotter;
-
+//Elev
 public class Elev {
     private String navn;
     private Hus hus;
