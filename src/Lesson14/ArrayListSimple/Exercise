@@ -1,0 +1,13 @@
+1 – Tilføj nye navne
+
+Udvid listen med mindst 3 nye navne (fx dit eget navn, et navn med specialtegn som "Åse", eller et med mellemrum "Jean Claude").
+Kør programmet igen og se, hvordan sorteringen ændrer sig.
+
+2 – Lav omvendt rækkefølge uden Collections.reverseOrder
+
+Hint: Brug Collections.sort og derefter Collections.reverse(list).
+
+3 – Sorter kun de første 5 navne
+
+Brug subList(0, 5) til at tage en del af listen og sorter kun den.
+Diskutér: hvad sker der med resten af listen?
