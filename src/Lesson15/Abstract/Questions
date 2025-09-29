@@ -1,0 +1,19 @@
+1. Hvilken klasse er markeret som abstract, og hvad betyder det for instansiering?
+
+2. Hvor i koden bliver toString() overskrevet, og hvordan ændrer det outputtet?
+
+3. Find den abstracte metode i koden. Hvilken klasse definerer den, og hvilke klasser implementerer den?
+
+4. Hvordan sikrer koden, at både Laptop og Desktop har en version af bootUp()?
+
+5. Kig på Test (main-klassen). Hvordan kan vi se polymorfi i brug her?
+
+6. Hvorfor kaldes super.toString() i subklasserne, og hvad sker der, hvis vi fjerner det?
+
+7. Hvordan udskrives listen med computere i main? Hvilken metode bliver indirekte kaldt her?
+
+8. Hvis man tilføjer en ny subklasse Tablet, hvad er man tvunget til at implementere for at koden kan kompilere?
+
+9. I ArrayList<Computer> computers – hvorfor bruger vi superklassen som type i stedet for at lave to separate lister (ArrayList<Laptop>, ArrayList<Desktop>)?
+
+10. Find et eksempel i koden, der viser enkapsulation (fx brugen af private felter + getters).
