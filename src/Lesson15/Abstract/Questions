@@ -1,19 +1,29 @@
 1. Hvilken klasse er markeret som abstract, og hvad betyder det for instansiering?
+- Computer klassen, er en abstract klasse, som bruges som en form for Super klasse, der arver videre til Desktop og Laptop
 
 2. Hvor i koden bliver toString() overskrevet, og hvordan ændrer det outputtet?
+- toString metoden bliver overskrevet i alle 3 klasser, til deres egne respektive værdier.
 
 3. Find den abstracte metode i koden. Hvilken klasse definerer den, og hvilke klasser implementerer den?
+- metoden er BootUp, som defineres i Computer klassen, og bliver implementeret i de 2 subclass
 
 4. Hvordan sikrer koden, at både Laptop og Desktop har en version af bootUp()?
+- gennem en override, hvilket betyder man overskriver en kode.
 
 5. Kig på Test (main-klassen). Hvordan kan vi se polymorfi i brug her?
+- c.bootup som ses i Test-klassen
 
 6. Hvorfor kaldes super.toString() i subklasserne, og hvad sker der, hvis vi fjerner det?
+- for at kalde på superklassens konstruktør og overskrive dem i en toString metode  - fjerner vi super vil den give en fejl
 
 7. Hvordan udskrives listen med computere i main? Hvilken metode bliver indirekte kaldt her?
+- gennem et ArrayList
 
 8. Hvis man tilføjer en ny subklasse Tablet, hvad er man tvunget til at implementere for at koden kan kompilere?
+- Super klassens konstruktør og bootUp metoden
 
 9. I ArrayList<Computer> computers – hvorfor bruger vi superklassen som type i stedet for at lave to separate lister (ArrayList<Laptop>, ArrayList<Desktop>)?
+- Man bruger superklassen (Computer) som type, fordi så kan både Laptop og Desktop gemmes i én samlet liste.
 
 10. Find et eksempel i koden, der viser enkapsulation (fx brugen af private felter + getters).
+- fx konstruktørene i Super klassen "Computer"

@@ -1,6 +1,7 @@
 package Lesson15.Abstract;
 
 // Abstract base class
+//1. Hvilken klasse er markeret som abstract, og hvad betyder det for instansiering?
 abstract class Computer {
     private String brand;
     private int ram;

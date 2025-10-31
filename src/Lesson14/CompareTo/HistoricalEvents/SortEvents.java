@@ -42,7 +42,7 @@ public class SortEvents {
             System.out.println(e);
         }
 
-        // Find laveste og højeste barn
+        // Find laveste og højeste event
         HistoricalEvent latest = events.get(0);
         HistoricalEvent earliest = events.get(events.size() - 1);
 
